@@ -1,0 +1,57 @@
+/**Einfügen der Dyslexia font */
+@font-face {font-family: lrs; src: url('OpenDyslexic-Bold.otf');}
+
+/** Ändernn der Scrollbar*/
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: grey;
+}
+::-webkit-scrollbar-thumb{
+    background: yellow;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: grey;
+}
+
+/**basic stuff*/
+.header1 {
+    color: yellow;;
+    text-align: center;
+}
+body {
+    background-color: grey;
+    padding-bottom: 10%;
+}
+h2 {
+    color: yellow;
+    text-align: center;
+    font-family: lrs;
+}
+.li{
+    color: yellow;
+    font-family: lrs;
+    font-size: x-large;
+}
+
+.text {
+    color: yellow;
+    text-align: center;
+    font-family: lrs;
+    font-size: x-large;
+}
+
+.center {
+display: block;
+text-align: center;
+}
+
+/** Bearbeiten der Tabelle*/
+table, th, td {
+    border:1px solid yellow
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
