@@ -1,3 +1,25 @@
+/*
+Lennart Lindenberg
+937292
+Medieningenieur 
+*/
+/** Die grundlegenden Farben werden festgelegt*/
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    
+
+}
+.dark{
+    --primary-color:black;
+    --secondary-color:white;
+}
+.light{
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+
 /**Einfügen der Dyslexia font */
 @font-face {font-family: lrs; src: url('OpenDyslexic-Bold.otf');}
 
@@ -9,49 +31,124 @@
     background-color: grey;
 }
 ::-webkit-scrollbar-thumb{
-    background: yellow;
+    background: var(--secondary-color)
+    ;
 }
 ::-webkit-scrollbar-thumb:hover{
     background: grey;
 }
 
-/**basic stuff*/
+/** Die sichtbarkeit der Tastatur bedienbarkeit erhöhen*/
+*:focus{
+    outline: none;
+    border: 8px dotted lightgreen;
+}
+/**grundlegende Einstellungen*/
+
+#bild1{
+    width: 420px;
+    height: auto;
+}
+#bild2{
+    width: 200px;
+    height: auto;
+}
+.button{
+    border-radius: 12px;
+    padding: 20px;
+    font-size: large;
+    margin: 0;
+}
 .header1 {
-    color: yellow;;
+    color: var(--secondary-color);;
     text-align: center;
+    font-family: lrs;
 }
 body {
-    background-color: grey;
+    margin: 0px;
+    background-color: var(--primary-color);
     padding-bottom: 10%;
 }
 h2 {
-    color: yellow;
+    color: var(--secondary-color);
     text-align: center;
     font-family: lrs;
-}
-.li{
-    color: yellow;
-    font-family: lrs;
-    font-size: x-large;
 }
 
 .text {
-    color: yellow;
+    color: var(--secondary-color);
     text-align: center;
     font-family: lrs;
-    font-size: x-large;
+    font-size:x-large;
+}
+
+hr {
+    height: 12px;
+    background-color: var(--secondary-color);
 }
 
 .center {
-display: block;
-text-align: center;
+    display: block;
+    text-align: center;
+}
+
+/**Nav-Bar*/
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: var(--secondary-color);
+    color: var(--primary-colors);
+}
+.navbar-nav{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.li{
+    color: var(--secondary-color);
+    font-family: lrs;
+    font-size:x-large;
+}
+.dropdown{
+    position: absolute;
+    width: 500px;
+    opacity: 0;
+    z-index: 2;
+}
+
+/** Platz an den Seiten */
+.container {
+    margin: 0 auto;
+    width: 60%;
 }
 
 /** Bearbeiten der Tabelle*/
 table, th, td {
-    border:1px solid yellow
+    border:1px solid var(--secondary-color);
 }
 .center{
     margin-left: auto;
     margin-right: auto;
 }
+
+/** Gestalten der Links*/
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: lightgreen;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

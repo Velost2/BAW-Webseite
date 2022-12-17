@@ -1,3 +1,9 @@
+<!--
+  Lennart Lindenberg 
+  937292 
+  Medieningenieur 
+--> 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,28 +12,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script type="text/javascript" src="script.js" defer></script>
   </head>
   
   <body>
-    <h1 class="header1">Barrierearme Webseiten</h1>
-    <hr/>
-    <h2>Die Wichtigkeit von barrierearmen Webseiten</h2>
-    <div>
-      <ul>
-        <li class="li"><a href="gesetze.html">Gesetze</a></li>
-        <li class="li"><a href="personal.html">Persönliche Meinung</a></li>
+    <!--
+    Erstellen der Navigationsleiste      
+     -->
+    <nav class="navbar ">
+      <ul class="navbar-nav">
+        <li class=" text li"><a href ="gesetze.html">Gesetze</a></li>
+        <li class="text li"><a href="personal.html">Persönliche Meinung</a></li>
       </ul>
-    </div>
+    </nav>
+    <h1 class="header1 text">Barrierearme Webseiten</h1>
+    <!--
+    Erstellen der Buttons      
+     -->
+    <button id="dark" class="button">Dunkles Design </button>
+    <button id="light" class="button"> Helles Design </button>
+    <button id="schriftNormal" class="button">Normale Schriftgrößen</button>
+    <button id="schriftGroß" class="button">GroßeSchrift</button>
     
-    <p class="text">
-      Webseiten sollten für Personen mit jeder Form von einschränkungen
-      erreichbar sein. Um die betroffenden Personen zu untersützen, gibt bereits
-      einige initiativen und sogar schon ein Symbol für Webseiten, welche die
-      Standards erfüllen. Dieses wird heir angezeigt:
-    </p>
+    <hr/>
+    <div class="container">
+      <h2 class="text">Die Wichtigkeit von barrierearmen Webseiten</h2>
+      
+      <p class="text">
+        Webseiten sollten für Personen mit jeder Form von einschränkungen
+        erreichbar sein. Um die betroffenden Personen zu untersützen, gibt bereits
+        einige initiativen und sogar schon ein Symbol für Webseiten, welche die
+        Standards erfüllen. Dieses wird heir angezeigt:
+      </p>
     <div class="center">
       <img
-        id="waicon"
         src="accessibility2.png"
         alt="Bild eines Strichmännchens mit den gliedmaßen vom körper gesträkt"
       />
@@ -87,6 +105,7 @@
       lässt sich die Webseite für Nutzer und Besitzer verbessern und es birgt
       viele Vorteile, sowohl auf finanzieller als auch auf ethischer Ebene.
     </p>
+  </div>
   </body>
   <footer>
     <p class="text">
