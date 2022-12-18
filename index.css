@@ -73,11 +73,12 @@ h2 {
     color: var(--secondary-color);
     text-align: center;
     font-family: lrs;
+    font-size: xx-large;
 }
 
 .text {
     color: var(--secondary-color);
-    text-align: center;
+    text-align: left;
     font-family: lrs;
     font-size:x-large;
 }
@@ -122,6 +123,7 @@ hr {
 .container {
     margin: 0 auto;
     width: 60%;
+    
 }
 
 /** Bearbeiten der Tabelle*/
@@ -135,7 +137,7 @@ table, th, td {
 
 /** Gestalten der Links*/
 a:link {
-    color: red;
+    color: lightgreen;
   }
   
   /* visited link */

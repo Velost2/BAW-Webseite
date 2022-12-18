@@ -42,7 +42,6 @@ großButton.onclick = () => {
         elements[i].style.fontSize = 'xx-large';
     }
     localStorage.setItem("font", "xx-large");
-
 }
 
 
