@@ -1,151 +1,150 @@
+<!--
+  Lennart Lindenberg 
+  937292 
+  Medieningenieur 
+--> 
 <!DOCTYPE html>
 <html lang="en">
-  cool
+
+
 <head>
+
     <link rel="stylesheet" href="index.css" type="text/css" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="script.js" defer></script>
     <title>Die eigene Meinung</title>
-</head>
-<body>
-    <h1 class="header1">Was denke ich über Barrierearme Webseiten?</h1>
-    <hr />
-    <div>
-      <ul>
-        <li class="li"><a href="index.html">Startseite</a></li>
-        <li class="li"><a href="gesetze.html"> Gesetze</a></li>
+  </head>
+  <body>
+    <!--
+    Erstellen der Navigationsleiste      
+     -->
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="text li"><a href="index.html">Startseite</a></li>
+        <li class="text li"><a href="gesetze.html"> Gesetze</a></li>
       </ul>
-    </div>
+    </nav>
+    <h1 class="header1">Persönliche Meinung</h1>
+    <!--
+    Erstellen der Buttons      
+     -->
+    <button id="dark" class="button">Dunkles Design</button>
+    <button id="light" class="button">Helles Design</button>
+    <button id="schriftNormal" class="button">Normale Schriftgrößen</button>
+    <button id="schriftGroß" class="button">GroßeSchrift</button>
+    <hr />
+    <div class="container">
     <div>
       <p class="text">
-        Meiner Meinung nach ist es wichtig, dass Webseiten für möglichst viele Personen 
-        möglichst leicht und gut zugänglich sind. Es muss nicht perfekt sein, aber auch ein 
-        kleines bisschen kann bereits einigen Personen helfen. Zusätzlich ist es kein
-        außergewöhnlicher Aufwand eine Webseite dementsprechend zu optimieren.
+        Meiner Meinung nach ist es wichtig, dass Webseiten für möglichst viele
+        Personen möglichst leicht und gut zugänglich sind. Es muss nicht perfekt
+        sein, aber auch ein kleines bisschen kann bereits einigen Personen
+        helfen. Zusätzlich ist es kein außergewöhnlicher Aufwand eine Webseite
+        dementsprechend zu optimieren.
       </p>
       <p class="text">
-        Es gibt im Internet, zum Beispiel auf YouTube bereits einige gute Videos,
-        welche bei der Erstellung barrierearmer Webseiten helfen. Hier ein Beispiel:
-        <br>
-        <iframe width="1024" height="576" 
-        src="https://www.youtube.com/embed/AAyyDRu909M">
+        Es gibt im Internet, zum Beispiel auf YouTube bereits einige gute
+        Videos, welche bei der Erstellung barrierearmer Webseiten helfen. Hier
+        ein Beispiel:
+        <br />
+
+        <!--
+          Einbinden des YouTube Videos
+         -->
+         <div class="center">
+          <iframe
+        
+          width="1024"
+          height="576"
+          src="https://www.youtube.com/embed/AAyyDRu909M" 
+           
+        >
         </iframe>
+         </div>
+        
+        <!--
+          Erstellen der ausklapp Funktion
+         -->
         <details>
-            <summary class="text">Video Transkript</summary>
-            <table class="text" style="margin-left: auto; margin-right:auto">
-              <tr>
-                <th>Audio</th>
-                <th>Video</th>
-              </tr>
-              <tr>
-                <td style="width:50% ;">
-                    Sich zum Online-Meeting einwählen,<br>
-                </td>
-                <!-- nicht die geistigen oder motorischen Fähigkeiten haben <br>
-                oder zu wenig Erfahrung mitbringen. <br>
-                Es braucht also digitale Barrierefreiheit, damit sie sich selbstständig durch die digitale Welt bewegen können.<br>
-                Noch dazu gibt es in einer barrierefreien digitalen Welt nur Gewinner: <br>
-                Alina, Johann und Mara können am digitalen Alltag teilnehmen, <br>
-                Videoanrufe machen, Tickets buchen, <br>
-                Nachrichten schreiben, online shoppen und vieles mehr.<br>
-                Davon profitieren auch die Anbieter von Online-Shops und Apps,<br> 
-                denn sie gewinnen viele neue und zufriedene Nutzer.<br>
-                Zudem werden barrierefreie Websites schneller in Suchmaschinen gefunden.<br>
-                Denn die Algorithmen erfassen vereinfachte Struktur und Lesbarkeit besser.<br>
-                Barrierefreie digitale Oberflächen sollten immer mindestens zwei der Sinne Sehen, Hören oder Tasten bedienen. <br>
-                Dazu gehört, bei Texten auf ausreichend hohe Kontraste zu achten, <br>
-                Vorleseoptionen zu bieten und Möglichkeiten zur Vergrößerung der Texte zu geben.<br>
-                Gut strukturierte Texte in einfacher Sprache erhöhen grundsätzlich die Verständlichkeit.<br>
-                Bei Videos sollte man darauf achten Untertitel zur Verfügung zu stellen, <br>
-                so können auch Hörgeschädigte den Inhalten folgen. <br>
-                Und auch bei der Bedienung sollten neben Tastatur und Maus die richtigen Schnittstellen für entsprechende Hilfsmittel geboten werden.<br>
-                Auf einfach aufbereiteten und leicht verständlichen Oberflächen tummelt sich letztendlich jeder gerne – <br>
-                nicht nur Alina, Johann und Mara. <br>
-                Digitale Barrierefreiheit zeigt: Werden alle Menschen berücksichtigt, ergeben sich Lösungen, von denen jeder profitiert. <br>
-                -->
-                <td>
-                  Aus der Perspektive einer Person wird augenblinzeln gezeigt und man sieht ein Meeting screen auf einen PC
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  schnell die nächste Zugverbindung suchen<br>
-                </td>
-                <td>
-                  Weiterhin aus der Perspektive einer Person sieht man Hände, welche eine App auf einen Tablet bedienen und etwas einstellen 
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  oder die neuesten Social Media Posts checken. <br>
-                </td>
-                <td>
-
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Für Alina, Johann und Mara gar nicht so einfach.<br>
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Sie stoßen im Internet oft auf Stellen, die sie nicht gut wahrnehmen,<br>
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  verstehen oder bedienen können - <br>
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  sogenannte digitale Barrieren. <br>
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Denn viele digitale Benutzeroberflächen sind nicht auf Menschen ausgerichtet, <br>
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  die in ihren Sinnen beeinträchtig sind,<br>
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr>
-                <td>
-                nicht die geistigen oder motorischen Fähigkeiten haben <br>
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-
-            </table>
+          <summary class="text">Video Transkript</summary>
+          <!--
+          Erstellen des Transkriptes
+         -->
+          <table class="text" style="margin-left: auto; margin-right: auto">
+            <tr>
+              <th>Audio</th>
+              <th>Video</th>
+            </tr>
+            <tr>
+              <td style="width: 50%">
+                Sich zum Online-Meeting einwählen,<br />
+              </td>
+             
+              <td>
+                Aus der Perspektive einer Person wird augenblinzeln gezeigt und
+                man sieht ein Meeting screen auf einen PC
+              </td>
+            </tr>
+            <tr>
+              <td>schnell die nächste Zugverbindung suchen<br /></td>
+              <td>
+                Weiterhin aus der Perspektive einer Person sieht man Hände,
+                welche eine App auf einen Tablet bedienen und etwas einstellen
+              </td>
+            </tr>
+            <tr>
+              <td>oder die neuesten Social Media Posts checken. <br /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Für Alina, Johann und Mara gar nicht so einfach.<br /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                Sie stoßen im Internet oft auf Stellen, die sie nicht gut
+                wahrnehmen,<br />
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>verstehen oder bedienen können - <br /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>sogenannte digitale Barrieren. <br /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                Denn viele digitale Benutzeroberflächen sind nicht auf Menschen
+                ausgerichtet, <br />
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>die in ihren Sinnen beeinträchtig sind,<br /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                nicht die geistigen oder motorischen Fähigkeiten haben <br />
+              </td>
+              <td></td>
+            </tr>
+          </table>
         </details>
       </p>
     </div>
-    
-    
-</body>
+    <p class="text">
+        Es stellt sich also heraus, dass es nicht viel benötigt, um eine Webseite zu verbessern. Helfen wir uns gegenseitig und versuchen wir zusammen zu arbeiten.
+      </p>
+    <div class="center">
+      
+      <img id="bild1"src="hand.png" alt="Hier ist ein Bild zu sehen, auf denen zwei gezeichnete Hände geschüttelt bzw. gegeben werden"> 
+
+    </div>
+  </body>
 </html>
