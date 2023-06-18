@@ -5,7 +5,6 @@
 --> 
 
 <!DOCTYPE html>
-aaaaa
 <html lang="en">
   <head>
     <link rel="stylesheet" href="index.css" type="text/css" />
@@ -20,10 +19,18 @@ aaaaa
     <!--
     Erstellen der Navigationsleiste      
      -->
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <li class="text li"><a href="index.html">Startseite</a></li>
-        <li class="text li"><a href="personal.html">Persönliche Meinung</a></li>
+     <nav>
+      <input type="checkbox" id="toggle">
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href ="index.html">Start</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="personal.html">Persönliche Meinung</a></li>
       </ul>
     </nav>
     <h1 class="header1">Gesetze</h1>
@@ -60,7 +67,7 @@ aaaaa
       <!--
       Eerstellen der verschiedenen Stichpunkte    
       -->
-      <ol class="li">
+      <ol class="text">
         <li>Informationen zu den wesentlichen Inhalten,</li>
         <li>Hinweise zur Navigation,</li>
         <li>
@@ -84,7 +91,7 @@ aaaaa
         erfüllt werden können. Diese Richtlinien basieren auf den 4 Prinzipien
         der WCAG:
       </p>
-      <ul class="li">
+      <ul class="text">
         Wahrnehmbarkeit:
         <br />
         <li>
